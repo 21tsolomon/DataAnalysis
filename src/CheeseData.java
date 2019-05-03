@@ -8,4 +8,7 @@ public class CheeseData {
             this.weight = weight;
         }
 
+        public int getYear(){return year;}
+
+
 }
