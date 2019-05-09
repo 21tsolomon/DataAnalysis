@@ -20,6 +20,10 @@ public class CheeseBank implements Sortable{
 
     }
 
+    
+
+
+
     public void sort(){
         selectionSort();
     }
@@ -53,6 +57,10 @@ public class CheeseBank implements Sortable{
         CheeseData temp = cheese.get(x);
         cheese.set(x, cheese.get(y));
         cheese.set(y, temp);
+    }
+
+    public ArrayList<CheeseData> getArrayList(){
+        return cheese;
     }
 
 }

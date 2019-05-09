@@ -10,5 +10,13 @@ public class CheeseData {
 
         public int getYear(){return year;}
 
+        public float getConsumption(){
+            return consumption;
+        }
+
+        public float getWeight(){
+            return weight;
+        }
+
 
 }
